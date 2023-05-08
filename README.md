@@ -52,7 +52,11 @@ Data Brain由三个核心功能模块构成： 统一可信的数据目录管理
 
 # 部署方法
 
-Data-Brain由三个子项目构成：
+Data-Brain由三个子项目构成：Data-Brain-Contract、Data-Brain-Server、Data-Brain-Front。
+- Data-Brain-Contract：提供项目的智能合约，将会部署在FISCO BCOS上，它包含了数据目录管理、数据传输管理的留痕存证功能。
+- Data-Brain-Server：项目的后台服务器，用于支持前端。
+- Data-Brain-Front：项目的前端。
+
 
 
 ## 环境要求
