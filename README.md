@@ -113,6 +113,7 @@ currentAccount: 0xcbe29631c0933c4319694dafc50723093f0de937
 
 ## 后端准备
 
+
 ### 克隆代码
 ```
 git clone https://github.com/WeBankBlockchain/Data-Brain-Server.git
@@ -120,13 +121,20 @@ cd Data-Brain-Server
 git checkout origin/dev
 ```
 
+### 编译
+
+在Data-Brain-Server项目根目录下执行
+```
+bash ./gradlew bootJar
+```
+这条指令会编译代码成springboot jar包，并执行。
 ### 链配置
 由于后端服务需要访问区块链，因此需要先配置链信息，包括证书、sdk配置，这些信息可以直接从sdk里拷贝。
 
 首先拷贝控制台里的证书到Data-Brain-Server工程的conf目录下:
 
 ```
-cp [控制台目录]/conf/* ./config
+cp [控制台目录]/conf/* dist/config
 ```
 
 ### 数据库初始化
@@ -135,7 +143,7 @@ cp [控制台目录]/conf/* ./config
 
 
 ### 服务配置
-在src/main/resources目录下创建application.yml，按照下面的模板进行配置，其中打了${}的需要自己配置。
+编辑dist/config/application.yml，按照下面的模板进行配置，其中打了${}的需要自己配置。
 ```
 server:
   port: 10880
@@ -246,10 +254,11 @@ swagger:
 - system.admin-password：系统运营方登陆密码。示例：admin 
 - system.admin-private-key：系统运营方私钥 。示例11afa82f974469792aa0172931b813d4fc7dd9177f3211779efc5f955d5e480f
 
- 
-### 启动
 
+### 启动
+在Data-Brain-Server项目根目录下执行
 ```
+cd dist
 bash start.sh
 ```
 这条指令会编译代码成springboot jar包，并执行。
@@ -279,7 +288,7 @@ yarn
 yarn start
 ```
 
-然后用户可以访问http://localhost:3000 进行体验
+然后用户可以访问http://localhost:3000进行体验
 
 ## 使用流程
 
