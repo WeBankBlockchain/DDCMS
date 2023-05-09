@@ -279,7 +279,7 @@ yarn
 yarn start
 ```
 
-然后用户可以访问http://localhost:3000进行体验
+然后用户可以访问http://localhost:3000 进行体验
 
 ## 使用流程
 
