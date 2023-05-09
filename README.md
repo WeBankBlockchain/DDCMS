@@ -220,10 +220,10 @@ system:
   bcos-cfg: "config/config.toml"
   bcos-group-id: "group0"
   crypto-type: 0
-  admin-account: 'admin'
-  admin-password: '123456'
+  admin-account: ${系统运营方账户}
+  admin-password: ${系统运营方密码}
   admin-private-key: ${见证方私钥，例如11afa82f974469792aa0172931b813d4fc7dd9177f3211779efc5f955d5e480f}
-  admin-company: '可信第三方'
+  admin-company: '系统运营方'
   contractConfig:
     account-contract: "0x1e0171e2f59d00a1851c5f8ca8af1b208f52627b"
     product-contract: "0x2f45c1aac14531d8bd3269d7d2c9ffc342798dcb"
@@ -233,6 +233,17 @@ system:
 swagger:
   enabled: true
 ```
+
+需要自己配置的属性包括：
+| 配置项 | 含义 | 示例 |
+| :----:| :----: | :----: |
+| spring.datasource.url | 数据库连接url |  jdbc:mysql://localhost:3306/databrain?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true|
+| spring.datasource.username | 用户名 | root |
+| spring.datasource.password | 密码 | 123456 |
+| system.admin-account  | 系统运营方账户  | root |
+| system.admin-password | 系统运营方密码 | 123456 |
+| system.admin-private-key  | 系统运营方私钥 |11afa82f974469792aa0172931b813d4fc7dd9177f3211779efc5f955d5e480f｜
+
 
 ### 启动
 
