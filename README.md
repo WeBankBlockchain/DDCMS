@@ -236,7 +236,7 @@ swagger:
 
 需要自己配置的属性包括：
 
-| 配置项 | <div style="width:150px">说明</div> | 示例 |
+| 配置项 | <div style="width:30%">说明</div> | 示例 |
 | -- |-- | --------|
 | spring.datasource.url | 数据库连接url |jdbc:mysql://localhost:3306/databrain?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true |
 | spring.datasource.username | 用户名 | root |
