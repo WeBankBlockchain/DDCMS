@@ -236,14 +236,15 @@ swagger:
 
 需要自己配置的属性包括：
 
-| 配置项 | <div style="width:30%">说明</div> | 示例 |
-| -- |-- | --------|
-| spring.datasource.url | 数据库连接url |jdbc:mysql://localhost:3306/databrain?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true |
-| spring.datasource.username | 用户名 | root |
-| spring.datasource.password | 密码 | 123456 |
-| system.admin-account  | 系统运营方账户  | admin |
-| system.admin-password | 系统运营方密码 | admin |
-| system.admin-private-key  | 系统运营方私钥 |11afa82f974469792aa0172931b813d4fc7dd9177f3211779efc5f955d5e480f|
+
+
+
+- spring.datasource.url: 数据库连接url。示例： jdbc:mysql://localhost:3306/databrain?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+- spring.datasource.username：数据库用户名。
+- spring.datasource.password：数据库密码
+- system.admin-account：系统运营方登陆账户名。示例：admin
+- system.admin-password：系统运营方登陆密码。示例：admin 
+- system.admin-private-key：系统运营方私钥 。示例11afa82f974469792aa0172931b813d4fc7dd9177f3211779efc5f955d5e480f
 
  
 ### 启动
