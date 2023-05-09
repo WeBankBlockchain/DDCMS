@@ -137,6 +137,14 @@ bash ./gradlew bootJar
 cp [控制台目录]/conf/* dist/config
 ```
 
+注意，检查证书的certPath配置，确保它指向了config目录，例如：
+```
+[cryptoMaterial]
+
+certPath = "config"                           # not conf
+
+```
+
 ### 数据库初始化
 进入数据库，依次执行resources目录下的数据库脚本：
 - scripts/db-script.sql
