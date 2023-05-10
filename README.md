@@ -48,6 +48,29 @@ Data Brain由三个核心功能模块构成： 统一可信的数据目录管理
 ## 数据处理组件管理
 提供对各种数据处理组件的管理能力，企业可按需接入和使用、避免二次开发、降低接入和使用成本。数据处理组件又包含零知识证明、联邦学习、选择性披露、隐私计算等模块。
 
+## 项目工程
+Data-Brain由三个子工程构成：
+
+### Data-Brain-Contract
+
+该项目是Data-Brain的合约部分，用于对每一个相关操作进行留痕、追溯。目前包含用户管理、业务管理、数据目录管理三个功能。
+请参考 
+    - [Github地址](https://github.com/WeBankBlockchain/Data-Brain-Contract)
+    - [Gitee地址](https://gitee.com/WeBankBlockchain/Data-Brain-Contract)
+
+### Data-Brain-Server
+
+该项目是Data-Brain的后端API，用于支持前端请求。
+    - [Github地址](https://github.com/WeBankBlockchain/Data-Brain-Server)
+    - [Gitee地址](https://gitee.com/WeBankBlockchain/Data-Brain-Server)
+
+### Data-Brain-Front
+
+
+该项目是Data-Brain的前端，用于提供友好的操作界面。
+    - [Github地址](https://github.com/WeBankBlockchain/Data-Brain-Front)
+    - [Gitee地址](https://gitee.com/WeBankBlockchain/Data-Brain-Front)
+
 
 ## 快速开始
 
