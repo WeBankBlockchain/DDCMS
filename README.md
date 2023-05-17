@@ -17,9 +17,7 @@ Data Brain旨在多方协作场景中，面向数据管理需求，提供一套�
 
 # Data Brain功能概述
 
-Data Brain包括三个功能模块：统一可信的数据目录管理、可追溯审计的数据传输过程管理、丰富安全的数据处理组件管理。
-
-当前仅开源统一可信的数据目录管理模块。
+Data Brain包括三个功能模块：统一可信的数据目录管理、可追溯审计的数据传输过程管理、丰富安全的数据处理组件管理。**当前仅开源统一可信的数据目录管理模块。**
 
 ### 统一可信的数据目录管理
 
@@ -41,21 +39,21 @@ Data-Brain包含三个子工程：
 - [Data-Brain-Server](https://github.com/WeBankBlockchain/Data-Brain-Server)
 - [Data-Brain-Front](https://github.com/WeBankBlockchain/Data-Brain-Front)
 
-## Data-Brain-Contract
+### Data-Brain-Contract
 
 Data-Brain-Contract是Data-Brain的智能合约实现，对接入用户、业务、数据目录等提供链上审核及管理等能力。
 
 - [Github地址](https://github.com/WeBankBlockchain/Data-Brain-Contract)
 - [Gitee地址](https://gitee.com/WeBankBlockchain/Data-Brain-Contract)
 
-## Data-Brain-Server
+### Data-Brain-Server
 
 Data-Brain-Service是Data Brain的后端工程，采用JAVA编写，提供和Data-Brain-Contract的交互能力及账户、业务、数据目录的管理能力。
 
 - [Github地址](https://github.com/WeBankBlockchain/Data-Brain-Server)
 - [Gitee地址](https://gitee.com/WeBankBlockchain/Data-Brain-Server)
 
-## Data-Brain-Front
+### Data-Brain-Front
 
 Data-Brain-Front是一个前端项目，采用React编写，提供可视化注册、登录、业务注册、审核、数据目录注册、审核、展示、查看及管理等功能。
 
