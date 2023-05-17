@@ -21,15 +21,15 @@ Data Brain包括三个功能模块：统一可信的数据目录管理、可追�
 
 当前仅开源统一可信的数据目录管理模块。
 
-## 统一可信的数据目录管理
+### 统一可信的数据目录管理
 
 提供统一的数据目录管理功能，所有操作均上链存证，确保数据目录可信，提升管理和运营效率，降低接入成本。
 
-## 可追溯审计的数据传输过程管理
+### 可追溯审计的数据传输过程管理
 
 每次数据的传输过程均会记录上链，确保数据流通的定量、定时、定场景，实现全流程可管理可追溯可监管审计。
 
-## 丰富安全的数据处理组件管理
+### 丰富安全的数据处理组件管理
 
 提供对各种数据处理组件的管理能力，企业可按需接入和使用，避免二次开发、降低接入和使用成本。
 
@@ -45,7 +45,6 @@ Data-Brain包含三个子工程：
 
 Data-Brain-Contract是Data-Brain的智能合约实现，对接入用户、业务、数据目录等提供链上审核及管理等能力。
 
-请参考 
 - [Github地址](https://github.com/WeBankBlockchain/Data-Brain-Contract)
 - [Gitee地址](https://gitee.com/WeBankBlockchain/Data-Brain-Contract)
 
@@ -64,19 +63,20 @@ Data-Brain-Front是一个前端项目，采用React编写，提供可视化注�
 - [Gitee地址](https://gitee.com/WeBankBlockchain/Data-Brain-Front)
 
 
-## 快速开始
+# 快速开始
 
 具体使用方式，请参考[快速开始](http://data-brain.readthedocs.io).
 
-## 贡献代码
+# 贡献代码
+
 欢迎参与本项目的社区建设：
 - 如项目对您有帮助，欢迎点亮我们的小星星(点击项目右上方Star按钮)。
 - 欢迎提交代码(Pull requests)。
 - [提问和提交BUG](https://github.com/WeBankBlockchain/Data-Brain/issues)。
 - 如果发现代码存在安全漏洞，请在[这里](https://security.webank.com)上报。
 
+# License
 
-## License
 ![license](http://img.shields.io/badge/license-Apache%20v2-blue.svg)
 
 开源协议为[Apache License 2.0](http://www.apache.org/licenses/). 详情参考[LICENSE](../LICENSE)。
