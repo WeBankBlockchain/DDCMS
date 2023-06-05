@@ -35,30 +35,30 @@ DDCMS包括三个功能模块：统一可信的数据目录管理、可追溯审
 
 DDCMS包含三个子工程：
 
-- [DDCMS-Contract](https://github.com/WeBankBlockchain/Data-Brain-Contract)
-- [DDCMS-Server](https://github.com/WeBankBlockchain/Data-Brain-Server)
-- [DDCMS-Front](https://github.com/WeBankBlockchain/Data-Brain-Front)
+- [DDCMS-Contract](https://github.com/WeBankBlockchain/DDCMS-Contract)
+- [DDCMS-Server](https://github.com/WeBankBlockchain/DDCMS-Server)
+- [DDCMS-Front](https://github.com/WeBankBlockchain/DDCMS-Front)
 
 ### DDCMS-Contract
 
 DDCMS-Contract是DDCMS的智能合约实现，对接入用户、业务、数据目录等提供链上审核及管理等能力。
 
-- [Github地址](https://github.com/WeBankBlockchain/Data-Brain-Contract)
-- [Gitee地址](https://gitee.com/WeBankBlockchain/Data-Brain-Contract)
+- [Github地址](https://github.com/WeBankBlockchain/DDCMS-Contract)
+- [Gitee地址](https://gitee.com/WeBankBlockchain/DDCMS-Contract)
 
 ### DDCMS-Server
 
 DDCMS-Service是DDCMS的后端工程，采用JAVA编写，提供和DDCMS-Contract的交互能力及账户、业务、数据目录的管理能力。
 
-- [Github地址](https://github.com/WeBankBlockchain/Data-Brain-Server)
-- [Gitee地址](https://gitee.com/WeBankBlockchain/Data-Brain-Server)
+- [Github地址](https://github.com/WeBankBlockchain/DDCMS-Server)
+- [Gitee地址](https://gitee.com/WeBankBlockchain/DDCMS-Server)
 
 ### DDCMS-Front
 
 DDCMSn-Front是一个前端项目，采用React编写，提供可视化注册、登录、业务注册、审核、数据目录注册、审核、展示、查看及管理等功能。
 
-- [Github地址](https://github.com/WeBankBlockchain/Data-Brain-Front)
-- [Gitee地址](https://gitee.com/WeBankBlockchain/Data-Brain-Front)
+- [Github地址](https://github.com/WeBankBlockchain/DDCMS-Front)
+- [Gitee地址](https://gitee.com/WeBankBlockchain/DDCMS-Front)
 
 
 # 快速开始
@@ -70,7 +70,7 @@ DDCMSn-Front是一个前端项目，采用React编写，提供可视化注册、
 欢迎参与本项目的社区建设：
 - 如项目对您有帮助，欢迎点亮我们的小星星(点击项目右上方Star按钮)。
 - 欢迎提交代码(Pull requests)。
-- [提问和提交BUG](https://github.com/WeBankBlockchain/Data-Brain/issues)。
+- [提问和提交BUG](https://github.com/WeBankBlockchain/DDCMS/issues)。
 - 如果发现代码存在安全漏洞，请在[这里](https://security.webank.com)上报。
 
 # License
