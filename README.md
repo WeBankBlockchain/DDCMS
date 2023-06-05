@@ -63,7 +63,7 @@ DDCMSn-Front是一个前端项目，采用React编写，提供可视化注册、
 
 # 快速开始
 
-具体使用方式，请参考[快速开始](http://data-brain.readthedocs.io).
+具体使用方式，请参考[快速开始](https://ddcms-docs.readthedocs.io/en/latest/).
 
 # 贡献代码
 
