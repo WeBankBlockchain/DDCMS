@@ -36,7 +36,7 @@ DDCMS包括三个功能模块：统一可信的数据目录管理、可追溯审
 DDCMS包含三个子工程：
 
 - [DDCMS-Contract](https://github.com/WeBankBlockchain/DDCMS-Contract)
-- [DDCMS-Server](https://github.com/WeBankBlockchain/DDCMS-Server)
+- [DDCMS-Service](https://github.com/WeBankBlockchain/DDCMS-Service)
 - [DDCMS-Front](https://github.com/WeBankBlockchain/DDCMS-Front)
 
 ### DDCMS-Contract
@@ -46,12 +46,12 @@ DDCMS-Contract是DDCMS的智能合约实现，对接入用户、业务、数据�
 - [Github地址](https://github.com/WeBankBlockchain/DDCMS-Contract)
 - [Gitee地址](https://gitee.com/WeBankBlockchain/DDCMS-Contract)
 
-### DDCMS-Server
+### DDCMS-Service
 
 DDCMS-Service是DDCMS的后端工程，采用JAVA编写，提供和DDCMS-Contract的交互能力及账户、业务、数据目录的管理能力。
 
-- [Github地址](https://github.com/WeBankBlockchain/DDCMS-Server)
-- [Gitee地址](https://gitee.com/WeBankBlockchain/DDCMS-Server)
+- [Github地址](https://github.com/WeBankBlockchain/DDCMS-Service)
+- [Gitee地址](https://gitee.com/WeBankBlockchain/DDCMS-Service)
 
 ### DDCMS-Front
 
